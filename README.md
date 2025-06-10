@@ -18,13 +18,13 @@
 2025/06/10 13:29:30 Decoded block: 37644747
 --- PASS: TestHeaderJSONDecode (0.00s)
 PASS
-ok      github.com/kamikazechaser/eth-cache/bench       0.026s
+ok      github.com/kamikazechaser/eth-rlp-compress/bench       0.026s
 ```
 
 ### Inference
 
-| Format | Original Size | Compressed Size | Compression Ratio | Space Savings |
-|--------|---------------|-----------------|-------------------|---------------|
-| **RLP Binary** | 15,183 bytes | **5,444 bytes** | **64.1%** | **35.9%** |
-| **Hex String** | 30,366 bytes | 5,496 bytes | 81.9% | 18.1% |
-| **JSON** | 42,493 bytes | 7,705 bytes | 81.9% | 18.1% |
+| Format | Original Size | Compressed Size | Compression Ratio | 
+|--------|---------------|-----------------|-------------------|
+| **RLP Binary** | 15,183 bytes | **5,444 bytes** | **64.1%** | 
+| **Hex String** | 30,366 bytes | 5,496 bytes | 81.9% | 
+| **JSON** | 42,493 bytes | 7,705 bytes | 81.9% |
