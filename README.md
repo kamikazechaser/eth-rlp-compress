@@ -28,3 +28,8 @@ ok      github.com/kamikazechaser/eth-rlp-compress/bench       0.026s
 | **RLP Binary** | 15,183 bytes | **5,444 bytes** | **64.1%** | 
 | **Hex String** | 30,366 bytes | 5,496 bytes | 81.9% | 
 | **JSON** | 42,493 bytes | 7,705 bytes | 81.9% |
+
+
+### Further Reading
+
+* https://github.com/devintegral/go-lachesis/commit/71c615a3ee73426731c226d28a9046d3d723e8cb
